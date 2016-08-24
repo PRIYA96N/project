@@ -1,0 +1,17 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+
+class Stringtoint
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		 Scanner sc=new Scanner(System.in);
+         String s=sc.nextLine();
+         int b=sc.nextInt();
+         int a=Integer.parseInt(s);
+         System.out.println((a+b));
+    
+	}
+}
