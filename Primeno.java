@@ -5,6 +5,7 @@ import java.util.*;
     System.out.println("enter the numbers ");
     int a=rc.nextInt();
     int b=rc.nextInt();
+    int count=0;
     if(a==1)
     {
     a=a+1;
@@ -19,9 +20,10 @@ import java.util.*;
           }
           if(c==0)
           {
-              System.out.println(i);
+              count++;
           }
     }
+    System.out.println(count);
   
    }
    }
