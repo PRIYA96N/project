@@ -10,12 +10,10 @@ public class Students{
          d[i]=sc.nextInt();
      }
      Arrays.sort(d);
-      for(int e=49;e<=0;e++)
-      {
-      if(e==46)
-      System.out.println(d[e]);
-      if(e==z)
-      System.out.println(d[e]);
+     
+      System.out.println(d[46]);
+    \
+      System.out.println(d[z]);
       }
      }
 }
